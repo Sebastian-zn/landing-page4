@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+  <title>Modern Page</title>
+</head>
+
+<body>
+  <!-- Scroll to Top Button -->
+  <div class="scrollToTop" id="scrollToTop" onclick="scrollToTop()">
+    <span><i class="fas fa-chevron-up"></i></span>
+  </div>
+
+  <!-- Header -->
+  <header class="hero">
+    <nav class="nav__hero">
+      <div class="container nav__container">
+        <div class="logo">
+          <h2 class="logo__name">Zen<span class="point">.</span></h2>
+        </div>
+        <div class="links">
+          <a href="#" class="link">Inicio</a>
+          <a href="#service" class="link">Servicios</a>
+          <a href="#projects" class="link">Proyectos</a>
+          <a href="#testimony" class="link">Clientes</a>
+          <a href="#contact" class="link link__active">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container hero__main">
+      <div class="hero__texts">
+        <h1 class="title">La mejor <span class="title__active">Experiencia Digital.</span></h1>
+        <p class="copy">Nos encargamos de llevar tu idea al <span class="copy__active">siguiente nivel.</span></p>
+        <a href="#" class="cta">Agenda un demo</a>
+      </div>
+      <img src="img/phone.png" class="mockup" alt="mockup">
+    </section>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Services Section -->
+    <section class="service" id="service">
+      <div class="container">
+        <h2 class="subtitle">Nuestros servicios<span class="point">.</span></h2>
+        <p class="copy__section">Ofrecemos las soluciones perfectas para revolución digital</p>
+        <article class="container__cards">
+          <div class="card">
+            <img src="img/web_apps.jpg" class="card__img" alt="card__img">
+            <div class="cards__text">
+              <p class="card__list">Especialistas en diseño UX / UI</p>
+              <h3 class="card__title">Web apps<span class="point">.</span></h3>
+              <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nesciunt tenetur
+                saepe labore, dolorem cupiditate ab doloribus laborum minima distinctio!</p>
+              <a href="#" class="card__button">Comienza tu proyecto</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/web_design.jpg" class="card__img" alt="card__img">
+            <div class="cards__text">
+              <p class="card__list">Especialistas en diseño UX / UI</p>
+              <h3 class="card__title">Diseño web<span class="point">.</span></h3>
+              <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nesciunt tenetur
+                saepe labore, dolorem cupiditate ab doloribus laborum minima distinctio!</p>
+              <a href="#" class="card__button">Comienza tu proyecto</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/ecommerce.jpg" class="card__img" alt="card__img">
+            <div class="cards__text">
+              <p class="card__list">Especialistas en diseño UX / UI</p>
+              <h3 class="card__title">Ecommerce<span class="point">.</span></h3>
+              <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nesciunt tenetur
+                saepe labore, dolorem cupiditate ab doloribus laborum minima distinctio!</p>
+              <a href="#" class="card__button">Comienza tu proyecto</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects container" id="projects">
+      <h2 class="subtitle">Proyectos recientes<span class="point">.</span></h2>
+      <p class="copy__section">Hemos colaborado con marcas reconocidas a nivel mundial</p>
+
+      <article class="container__bg">
+        <div class="card">
+          <div class="cards__text">
+            <h3 class="card__title">Diseño web<span class="point">.</span></h3>
+            <p class="card__date">3 de septiembre 2020</p>
+            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nesciunt tenetur
+              saepe labore, dolorem cupiditate ab doloribus laborum minima distinctio!</p>
+            <a href="#" class="card__button">Comienza tu proyecto</a>
+          </div>
+        </div>
+        <div class="background">
+          <img src="img/virtual_edu.jpg" class="background__img" alt="back">
+          <div class="background__text">
+            <h3 class="background__title">La educación en línea</h3>
+            <p class="background__copy">La realidad aumentada transformará por completo la educación</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cards__text">
+            <h3 class="card__title">Diseño web<span class="point">.</span></h3>
+            <p class="card__date">3 de septiembre 2020</p>
+            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nesciunt tenetur
+              saepe labore, dolorem cupiditate ab doloribus laborum minima distinctio!</p>
+            <a href="#" class="card__button">Comienza tu proyecto</a>
+          </div>
+        </div>
+        <div class="background">
+          <img src="img/ia.jpg" class="background__img" alt="back">
+          <div class="background__text">
+            <h3 class="background__title">La educación en línea</h3>
+            <p class="background__copy">La realidad aumentada transformará por completo la educación</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="testimony" id="testimony">
+      <div class="container">
+        <h2 class="subtitle">Clientes satisfechos<span class="point">.</span></h2>
+        <p class="copy__section">Cientos de empresas confían en nosotros</p>
+
+        <div class="testimony__container">
+          <div class="testimony__card">
+            <img src="img/face2.jpg" class="testimony__img" alt="card1">
+            <div class="testimony__copy">
+              <span class="testimony__logo"><i class="fab fa-google"></i></span>
+              <div class="testimony__info">
+                <h3 class="testimony__name">Jeff Burton</h3>
+                <p class="testimony__position">Director de Google Colombia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimony__card">
+            <img src="img/face1.jpg" class="testimony__img" alt="card3">
+            <div class="testimony__copy">
+              <span class="testimony__logo"><i class="fab fa-apple"></i></span>
+              <div class="testimony__info">
+                <h3 class="testimony__name">Sarah Kent</h3>
+                <p class="testimony__position">Directora de Apple Colombia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimony__card">
+            <div class="testimony__text">
+              <img src="img/google.png" class="google__logo" alt="google__logo">
+              <p class="testimony__history">"Desde que empezamos a trabajar con Templune, comenzamos a tener resultados
+                increíbles. Ahora hemos llegado a un número de clientes potecial"</p>
+            </div>
+            <div class="testimony__copy testimony__copy--modifier">
+              <div class="testimony__info">
+                <h3 class="testimony__name">Jeff Burton</h3>
+                <p class="testimony__position">Director de Google Colombia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact container container__modifier" id="contact">
+      <h2 class="subtitle subtitle__modifier">Somos tu mejor opción para adoptar la transformación digital<span
+          class="point">.</span></h2>
+      <p class="copy__section copy__section--modifier">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+        consequuntur. Voluptate
+        praesentium deserunt repellat dolorum ducimus blanditiis minus ea quam!</p>
+      <div class="check">
+        <div class="check__item check__item--border">
+          <span class="fa__check"><i class="fas fa-check-circle"></i></span>
+          <div class="check_numbers">
+            <p class="check__number">+200</p>
+            <p class="check__copy">Proyectos exitosos</p>
+          </div>
+        </div>
+
+        <div class="check__item check__item--border">
+          <span class="fa__check"><i class="fas fa-check-circle"></i></span>
+          <div class="check_numbers">
+            <p class="check__number">+200</p>
+            <p class="check__copy">Proyectos exitosos</p>
+          </div>
+        </div>
+
+        <div class="check__item">
+          <span class="fa__check"><i class="fas fa-check-circle"></i></span>
+          <div class="check_numbers">
+            <p class="check__number">+200</p>
+            <p class="check__copy">Proyectos exitosos</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="newsletter">
+        <input type="email" class="newsletter__input" name="newsletter__input" id="" placeholder="Ingresa tu email...">
+        <input type="submit" class="newsletter__submit" value="Comienza hoy">
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__caption">
+      <div class="download">
+        <h3 class="title__footer">¡Descarga nuestra app!</h3>
+        <div class="download__app">
+          <div class="download__item">
+            <span><i class="fab fa-google-play download__logo"></i></span>
+            <h4 class="download__title ">Google Play</h4>
+          </div>
+          <div class="download__item">
+            <span><i class="fab fa-apple download__logo"></i></span>
+            <h4 class="download__title ">App Store</h4>
+          </div>
+        </div>
+
+        <div class="footer__copy">
+          <p class="copyright">Zen &copy; 2020 Todos los derechos reservados</p>
+          <a href="#" class="policy__privacy">Politica de privacidad</a>
+          <a href="#" class="terms__conditions">Términos y condiciones</a>
+        </div>
+      </div>
+
+      <div class="get__email">
+        <h3 class="title__footer">¿Estás listo para trabajar con nosotros?</h3>
+        <form action="" class="newsletter newsletter__modifier">
+          <input type="email" class="newsletter__input" placeholder="Ingresa tu email...">
+          <input type="submit" class="newsletter__submit" value="Comienza hoy">
+        </form>
+        <div class="social__media">
+          <p class="socialmedia__legend">Siguenos en:</p>
+          <span class="socialmedia__icon"><i class="fab fa-facebook-square"></i></span>
+          <span class="socialmedia__icon"><i class="fab fa-linkedin"></i></span>
+          <span class="socialmedia__icon"><i class="fab fa-twitter"></i></span>
+          <span class="socialmedia__icon"><i class="fab fa-instagram"></i></span>
+          <span class="socialmedia__icon"><i class="fab fa-github"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__contact">
+      <div class="item__contact">
+        <span class="contact__icon"><i class="far fa-copyright"></i></span>
+        <h3 class="contact__title">Zen</h3>
+      </div>
+      <div class="item__contact">
+        <span class="contact__icon"><i class="far fa-envelope"></i></span>
+        <h3 class="contact__title">ejemplo@correo.com</h3>
+      </div>
+      <div class="item__contact">
+        <span class="contact__icon"><i class="fas fa-map-marker-alt"></i></span>
+        <h3 class="contact__title">Paseos de la reforma</h3>
+      </div>
+      <div class="item__contact item__contact--gold">
+        <span class="contact__icon--modifier"><i class="far fa-comments"></i></span>
+        <h3 class="contact__title">Contáctanos ahora</h3>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
